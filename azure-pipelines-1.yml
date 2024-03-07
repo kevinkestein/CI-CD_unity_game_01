@@ -22,8 +22,6 @@ steps:
     versionSelectionMode: 'project'
     outputPath: '$(Build.BinariesDirectory)'
     outputFileName: 'Unity_Game_Ci_Android_01'
-    
-
 
 
 - script: |
