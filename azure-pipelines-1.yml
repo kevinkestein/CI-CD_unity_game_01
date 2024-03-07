@@ -17,11 +17,14 @@ steps:
 
 - task: UnityBuildTask@3
   inputs:
-    buildTarget: 'standalone'
+    buildTarget: 'Android'
     unityProjectPath: 'C:\Users\apoka\Documents\GitHub\CI-CD_unity_game_01\Ci_cd_unity_game_01'
     versionSelectionMode: 'project'
     outputPath: '$(Build.BinariesDirectory)'
-    outputFileName: 'Unity_Game_Ci'
+    outputFileName: 'Unity_Game_Ci_Android'
+    
+
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
