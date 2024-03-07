@@ -21,7 +21,7 @@ steps:
     unityProjectPath: 'C:\Users\apoka\Documents\GitHub\CI-CD_unity_game_01\Ci_cd_unity_game_01'
     versionSelectionMode: 'project'
     outputPath: '$(Build.BinariesDirectory)'
-    outputFileName: 'Unity_Game_Ci_Android'
+    outputFileName: 'Unity_Game_Ci_Android_01'
     
 
 
