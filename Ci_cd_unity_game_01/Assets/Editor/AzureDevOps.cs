@@ -10,7 +10,7 @@
         
         public class AzureDevOps
         {
-            private static string outputFileName = @"Unity_Game_Ci_Android";
+            private static string outputFileName = @"Unity_Game_Ci_Android_01";
             private static string locationPathName = @"C:\agent\_work\1\b";
 
             public static void PerformBuild()
